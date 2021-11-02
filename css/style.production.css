@@ -69,9 +69,9 @@ ul {
 li a {
   display: block;
   color: black;
-  padding: 14px 16px;
+  padding: 4px 16px;
   border: none;
-  border-radius: 50%;
+  border-radius: 45%;
   text-decoration: none;
   -webkit-transition: .5s opacity;
   -o-transition: .5s opacity;
@@ -382,7 +382,6 @@ textarea {
 /* contact.html */
 
  /* about.html */
-
  .button {
    /* overwrites browser defaults and resets the border */
    border: none;
