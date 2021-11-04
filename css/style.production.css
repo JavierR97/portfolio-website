@@ -206,11 +206,15 @@ li a:hover {
 
 .social-media_github {
   clear: both;
+  margin-right: 5px;
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: -webkit-transform .3s ease-in-out;
   -o-transition: transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
   transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+a .social-media_github {
+  text-decoration: none;
 }
 
 .social-media_github:hover {
@@ -236,6 +240,7 @@ li a:hover {
 
 .social-media_linkedin {
   clear: both;
+  margin-left: 5px;
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: -webkit-transform .3s ease-in-out;
   -o-transition: transform .3s ease-in-out;
@@ -263,6 +268,10 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.social-media__links {
+  text-decoration: none;
 }
 /* footer */
 
