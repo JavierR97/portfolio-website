@@ -21,7 +21,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  background-color: #cc4545;
+  background-color: #407f75;
 }
 
 h1 {
@@ -68,10 +68,10 @@ ul {
 
 li a {
   display: block;
-  color: black;
-  padding: 4px 16px;
+  color: white;
+  padding: 14px 16px;
   border: none;
-  border-radius: 50px;
+  border-radius: 50%;
   text-decoration: none;
   -webkit-transition: .5s opacity;
   -o-transition: .5s opacity;
@@ -128,7 +128,7 @@ li a:hover {
 .navigation-list__item {
   text-decoration: none;
   font-weight: 700;
-  color: undefined;
+  color: black;
 }
 
 
@@ -139,8 +139,8 @@ li a:hover {
  }
  .page-header__logo {
    width: 110px;
-   padding: 0;
-   margin: 0;
+   padding:0;
+  margin: 0;
  }
  .navigation-list__item {
    display:inline-block;
@@ -188,7 +188,7 @@ li a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 1700px;
+  max-width: 1500px;
   margin: 0 auto;
   text-align: center;
   background-color: lightgray;
@@ -206,15 +206,11 @@ li a:hover {
 
 .social-media_github {
   clear: both;
-  margin-right: 5px;
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: -webkit-transform .3s ease-in-out;
   -o-transition: transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
   transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
-}
-a .social-media_github {
-  text-decoration: none;
 }
 
 .social-media_github:hover {
@@ -240,7 +236,6 @@ a .social-media_github {
 
 .social-media_linkedin {
   clear: both;
-  margin-left: 5px;
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: -webkit-transform .3s ease-in-out;
   -o-transition: transform .3s ease-in-out;
@@ -269,10 +264,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
-.social-media__links {
-  text-decoration: none;
-}
 /* footer */
 
 /* work.html  */
@@ -280,6 +271,8 @@ footer {
   display: -ms-grid;
   display: grid;
   display: grid;
+  margin-left:100px;
+  margin-right:100px;
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -314,6 +307,13 @@ footer {
      font-size: 22px;
    }
  }
+
+.work_html {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-bottom: 30px;
+}
 /* work.html */
 
 /* contact.html */
@@ -364,7 +364,7 @@ textarea {
           flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  color: undefined;
+  color: black;
   font-size: 17px;
   font-weight: 700;
   margin-left: 20px;
@@ -383,7 +383,7 @@ textarea {
           flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  color: undefined;
+  color: black;
   font-size: 17px;
   font-weight: 700;
   margin-left: 20px;
@@ -391,6 +391,7 @@ textarea {
 /* contact.html */
 
  /* about.html */
+
  .button {
    /* overwrites browser defaults and resets the border */
    border: none;
@@ -400,7 +401,7 @@ textarea {
    font-family: inherit;
    /* styles the background color, font color, and text decoration (underline, etc.) of the button */
    background-color: lightgray;
-   color: undefined;
+   color: black;
    text-decoration: none;
    /* adds spacing to the button */
    padding: 10px;
