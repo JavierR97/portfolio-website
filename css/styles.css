@@ -162,7 +162,7 @@ li a:hover {
 .profile {
   display: flex;
   justify-content: center;
-  max-width: 1500px;
+  max-width: 80%;
   margin: 0 auto;
   text-align: center;
   background-color: var(--background-color);
@@ -317,30 +317,70 @@ input[type=tel] {
 
  /* about.html */
 
- .button {
-   /* overwrites browser defaults and resets the border */
-   border: none;
-   display: inline-block;
-   float:left;
-   /* takes the font from the outer container */
-   font-family: inherit;
-   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-   background-color: var(--background-color);
-   color: var(--text-color);
-   text-decoration: none;
-   /* adds spacing to the button */
-   padding: 10px;
-   border-radius: 3px;
-   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-   transition: 0.6s opacity;
+ .about-header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
  }
 
- .button:hover, .button:focus {
-    /* lets the mouse appear as a hand when hovering over the button */
-   cursor: pointer;
-   /* reduces the opacity of the button to 80% when hovored over*/
-   opacity: .85
+ .about-content-table {
+   border-collapse: collapse;
+   margin: 25px 0;
+   font-size: 18px;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow:hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+ }
+
+.about-content-table thead tr {
+  background-color: var(--background-color);
+  text-align: left;
+  font-weight: bold;
+}
+
+.about-content-table th, .about-content-table td {
+  padding: 12px 15px;
+}
+
+.about-content-table tbody tr {
+  border-bottom: 1px solid var(--background-color);
+}
+
+.about-content-table tbody tr:nth-of-type(even) {
+  background-color: #ebe6e6;
+}
+
+.about-content-table tbody tr:last-of-type {
+  border-bottom: 2px solid var(--background-color);
+}
+
+.button {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+  display: inline-block;
+  float:left;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color: var(--background-color);
+  color: black;
+  text-decoration: none;
+  /* adds spacing to the button */
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 3px;
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition: 0.6s opacity;
+}
+
+.button:hover, .button:focus {
+   /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+  /* reduces the opacity of the button to 80% when hovored over*/
+  opacity: .85
 }
 
  @keyframes color-change {
