@@ -286,6 +286,9 @@ footer {
 }
 
 form {
+  background-color: var(--background-color);
+  width: 80%;
+  border-radius: 7px;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -301,7 +304,7 @@ form {
 }
 
 input[type=text], select, textarea {
-  width: 40%;
+  width: 75%;
   padding: 12px;
   border: 4px solid #ccc;
   border-radius: 4px;
@@ -312,11 +315,31 @@ input[type=text], select, textarea {
 }
 
 input[type=email] {
-  width: 35%;
+  width: 45%;
 }
 
 input[type=tel] {
-  width: 35%;
+  width: 45%;
+}
+
+.submit_button  {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom:10px;
+  font-weight: bold;
+  background-color: #357b70;
+}
+
+.submit_button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: opacity 0.5s ease;
+}
+
+.submit_button:hover {
+  opacity: .85;
 }
 /* contact.html */
 
