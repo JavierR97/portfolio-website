@@ -232,6 +232,7 @@ footer {
 }
 
 .grid__item {
+  border-radius: 7px;
   background-color: var(--background-color);
 }
 
