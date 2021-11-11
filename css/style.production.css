@@ -528,8 +528,6 @@ input[type=tel] {
   margin:-35px 0 0 -336px;
 }
 
-
-
 .ufo-svg__img {
     -webkit-animation: floatAnim 3s ease-in-out infinite;
             animation: floatAnim 3s ease-in-out infinite;
