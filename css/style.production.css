@@ -197,6 +197,7 @@ li a:hover {
   border-radius: 8px;
   text-align: center;
   background-color: lightgray;
+  padding: 7%;
 }
 
 
@@ -285,10 +286,11 @@ footer {
   grid-gap: 20px;
   margin-left:100px;
   margin-right:100px;
-
+  text-align: center;
 }
 
 .grid__item {
+  padding:20px;
   border-radius: 7px;
   background-color: lightgray;
 }
@@ -381,12 +383,18 @@ form {
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top:175px;
-  margin-left:15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 input[type=text], select, textarea {
@@ -410,6 +418,7 @@ input[type=tel] {
 }
 
 .submit_button  {
+  color:white;
   border: none;
   border-radius: 10px;
   padding: 10px;
@@ -433,6 +442,10 @@ input[type=tel] {
 /* contact.html */
 
  /* about.html */
+
+ .about-header__item {
+   color: white;
+ }
 
  .about-header {
    display: -webkit-box;
@@ -483,6 +496,10 @@ input[type=tel] {
   border-bottom: 2px solid lightgray;
 }
 
+.about-content-table tbody tr:nth-of-type(odd) {
+  color:white;
+}
+
 .button {
   /* overwrites browser defaults and resets the border */
   border: none;
@@ -512,14 +529,14 @@ input[type=tel] {
   opacity: .85
 }
 
- .ufo-svg__img  {
+.ufo-svg__img  {
     width: 100%;
     height:100%;
     margin: -28px 0 0 -167px;
     position: relative;
 }
 
- #svg238 {
+#svg238 {
   display:inline-block;
   width: 331px;
   height: 100px;
@@ -530,15 +547,18 @@ input[type=tel] {
   margin:-35px 0 0 -336px;
 }
 
+
+
 .ufo-svg__img {
-    -webkit-animation: floatAnim 3s ease-in-out infinite;
-            animation: floatAnim 3s ease-in-out infinite;
+  -webkit-animation: floatAnim 2s ease-in-out infinite;
+          animation: floatAnim 2s ease-in-out infinite;
   }
 
- .ufo_svg {
+.ufo_svg {
   width:100%;
   height:75px;
-}
+  }
+
   @-webkit-keyframes floatAnim {
     0% {
       -webkit-transform: translate(0, 20px);
@@ -560,8 +580,8 @@ input[type=tel] {
               transform: translate(0, 20px);
     }
     50% {
-      -webkit-transform: translate(0, 30px);
-              transform: translate(0, 30px);
+      -webkit-transform: translate(0, 50px);
+              transform: translate(0, 50px);
     }
     100% {
       -webkit-transform: translate(0,20px);
