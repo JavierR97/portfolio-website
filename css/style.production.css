@@ -597,8 +597,8 @@ input[type=tel] {
               transform: translate(0, 20px);
     }
     50% {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px);
+      -webkit-transform: translate(0, 30px);
+              transform: translate(0, 30px);
     }
     100% {
       -webkit-transform: translate(0,20px);
