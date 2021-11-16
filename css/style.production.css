@@ -210,6 +210,10 @@ li a:hover {
     font-size: 22px;
 }
 
+.page-footer > p {
+  color:white;
+}
+
 .social-media_github {
   clear: both;
   -webkit-transition: -webkit-transform .3s ease-in-out;
@@ -356,7 +360,7 @@ footer {
       -ms-flex-align:center;
           align-items:center;
   margin:30px;
-  color:black;
+  color:white;
 }
 
 form {
@@ -380,6 +384,7 @@ form {
 }
 
 .my-contact-info {
+  color:white;
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
@@ -396,6 +401,17 @@ form {
   margin-top: 35px;
   margin-bottom: 35px;
 }
+
+.my-contact-info > a {
+  color:white;
+  text-decoration: none;
+}
+
+.my-contact-info > a:hover {
+  text-decoration: underline;
+}
+
+
 
 input[type=text], select, textarea {
   width: 75%;

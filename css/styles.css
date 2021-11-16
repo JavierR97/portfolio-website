@@ -184,6 +184,10 @@ li a:hover {
     font-size: 22px;
 }
 
+.page-footer > p {
+  color:white;
+}
+
 .social-media_github {
   clear: both;
   transition: transform .3s ease-in-out;
@@ -287,7 +291,7 @@ footer {
   justify-content: center;
   align-items:center;
   margin:30px;
-  color:black;
+  color:white;
 }
 
 form {
@@ -302,12 +306,22 @@ form {
 }
 
 .my-contact-info {
+  color:white;
   display:flex;
   justify-content: center;
   align-items: center;
   flex-direction:column;
   margin-top: 35px;
   margin-bottom: 35px;
+}
+
+.my-contact-info > a {
+  color:white;
+  text-decoration: none;
+}
+
+.my-contact-info > a:hover {
+  text-decoration: underline;
 }
 
 input[type=text], select, textarea {
